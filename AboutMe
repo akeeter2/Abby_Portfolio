@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> About Me </title>
+</head>
+ <link rel="stylesheet" type="text/css" href="Home.css">
+ <link rel="stylesheet" type="text/css" href="MyWorks.css">
+ <link rel="stylesheet" type="text/css" href="AboutMe.css">
+ <link rel="stylesheet" type="text/css" href="ContactMe.css">
+<body>
+
+ 
+<div id="wrapper">
+<nav>
+<div id="logo">
+
+
+
+
+
+</div>
+
+
+<div class="brand"> <!-- top logo-->
+	About Me
+
+</div>
+<ul>
+	<ul>
+		<li><a href="home.html">Home</a> </li>
+		<li><a href = "myworks.html">My Works</a> </li>
+		<li><a href = "experience.html">About Me</a> </li>
+		<li><a href = "contactMe.html">Contact Me</a></li>
+	</ul>
+</nav>
+
+<div id="bkg">
+
+			
+
+			<div id="center">
+
+
+
+			<div id="content"> 
+				<video controls="" id="video">
+				<source src="AbigailKeeter_Romeo&Juliet_Final_v3.mp4" type="video/mp4">
+			</div>
+
+</div>
+
+</div>
+<!-- close header -->
+
+
+<!-- close navigation -->
+
+	<!--<div id="main"> 
+	<a href = "contact.html">
+		<img src="paper.jpeg"> 
+	</a> <!This can be used more than once-
+	</div>
+	
+	<div id="middle">
+	<a href = "MyWorks.html">
+		<<img src="HomePage.jpeg"> - 
+		<img src="Headphone.jpg">-->
+
+
+	<ul id="images">
+		<li><a href="abby_template.html"><img src="Headphone.jpg"></a></li>
+		<li><a href="ContactMe.html"><img src="paper.jpeg"></li>
+		<li><a href="MyWorks.html"><img src="1.png"></li>
+	</ul>
+	<!--</a> 
+	</div>-->
+
+<!--This is a button-->
+	<!--<input class="buttons" type="button" value="My Works" onclick="window.location.href='MyWorks.html'"/> -->
+
+	</div>
+
+<!-- close main section -->
+
+
+<!--closes wrapper -->
+
+</body>
+</html>

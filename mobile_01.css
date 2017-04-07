@@ -1,0 +1,281 @@
+/*CSS Sheet for WEBSITE>>>>>Woot!*/
+/*Abby Keeter*/
+
+body{
+	font-family: 'Roboto', sans-serif; /*This is your font*/
+}
+
+/* This is the style for the wrapper */
+#wrapper{
+	width: 100%;	 
+	margin: 0 auto;
+}
+
+#header{
+	width: 70%;	 
+	margin: 0 auto;
+	padding:2px;
+}
+
+nav{
+	color:white;
+	width: 100%;
+	text-align: center;
+	padding-bottom:.5em;
+	/*padding:100px 40px 20px 40px; /*top,right,bottom,left*/
+}
+nav a{
+	color:black;
+}
+
+li a {
+	text-decoration: none;
+}
+
+ nav ul{
+ 	padding:0;
+ }
+@media only screen and (min-device-width:600px){
+	nav li {
+		display:inline-block;
+		padding:1em;
+	}
+}
+
+.brand{
+	color:black;
+	margin:40px 0px 0px 20px;
+	padding-top: 20px;
+	padding-bottom: .5em;
+	font-size:150%;
+}
+
+#bkgOne{
+	background-color:#E0E3D1;
+	width: 100%; /*Took this section out for mobile*/ 
+	position: center;
+	/*margin-top: 100px;*/  /*This adds space to top for reg. Add media query here for regular*/
+	padding-bottom: 50px;
+	padding-top: 20px;
+	height:100%; /*Changed this for mobile. Add media query here*/
+	overflow: hidden;
+	background-image:url("Texture.png");
+	background-size: contain;
+	background-repeat:repeat;
+
+}
+
+
+#bkg {
+	background-color:#E0E3D1;
+	width: 100%; /*Added this for mobile. Change through */
+	padding-bottom: auto;
+	overflow: hidden;
+	background-image:url("Texture.png");
+	background-size: contain;
+	background-repeat:repeat;
+}
+@media only screen and(min-device-width:376px){
+#bkg{
+width:100%;
+height
+}
+}
+
+#Texture img{
+	width: 100%;
+	position: center;
+	margin-top: 100px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	float:left;
+	height:100px;
+	background-repeat:initial;
+	display: block;
+}
+.HeadingPhoto{
+	text-align: center;
+	width:100%;
+	
+}
+
+.HeadingPhoto img{
+	width: 10%;
+	padding-top:20px;
+}
+
+.MyWorks_HeadingDescription{
+	text-align: center;
+}
+
+#nav{
+	float: right;
+	z-index:1;
+	text-align:right; 
+	overflow:auto; 
+}
+
+.content{
+	width:50%;
+	/*padding:40px 0px 30px 0px;*/
+	text-align: center;
+}
+.content video{
+	/*width: 50%;
+	display:inline-block;
+	margin-left: -5%;*/
+	padding-bottom:40px;
+	width: 80%;
+}
+
+#main{
+	/*border: 1px solid black;*/
+	width: 100%;	 
+	margin: 0 auto;
+	/*padding:2px;*/
+	float:left;
+	padding:100px 40px 20px 40px; /*top,right,bottom,left*/    
+}
+
+#middle{
+	padding:50px 40px 20px 80px;
+}
+
+footer{
+	background:blue;
+	float: left;
+	margin: 10px;
+	max-width: 
+	max-height:70%;
+	padding: 10px;
+}
+
+.buttons{
+	background-color: red;
+	height:200px;
+	width:200px;
+	z-index:1;
+	position:10;
+	margin:auto;
+	overflow:auto;
+	cursor:pointer;
+}
+
+#images {
+	text-align: center;
+	/*padding:30px;*/
+	padding-top:.5em;
+	/*width:100%;*/
+}
+
+#images li {
+	display:inline-block;
+	/*padding: 60px, 70px, 0px;*/
+	/*height: 300px;*/
+	/*width: 300px;*/
+	/*padding-top: 100px;*/
+	margin:10px;
+	vertical-align:text-top;
+
+}
+
+/*adjsuts list of images in list only*/
+#images img {
+	/*height: 400px;*/
+	width: 100%;
+	margin: auto;
+
+}
+@media only screen and (min-device-width: 600px){
+	#images img{
+		display: inline-block;
+		width: 30%;
+		padding:0.5em;
+	}
+	.content video {
+		width: 45%;
+		padding: 0.5em;
+		display: inline-block;
+		/*margin: auto;*/
+	}
+}
+
+@media only screen and (min-device-width:319px){
+	.content {
+		display:inline-block;
+		margin-top: 10%;
+		width:100%;
+	}
+	video {
+		/*position:relative;
+		padding-left:30%;
+		padding-right:30%;*/
+		width:60%;
+		display: block;
+		margin: auto;
+	}
+}
+.resume{
+
+	width:100%;
+	display: initial;
+}
+@media only screen and (min-device-width:376px){
+	.resume{
+		display:inline-flex;
+	}
+	#column_2{
+		padding-top: 2em;
+	}
+}
+#column_1{
+	text-overflow: wrap;
+	width:85%;  /*Added got mobile. DELETE for reg. site throguh media queries */
+	/*margin-top: 100%;*//*Added got mobile. DELETE for reg. site throguh media queries */
+	/*float:left;*/ /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*width:35%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*padding-left:15%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*padding-top: 15%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*padding-left:5%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */	
+}
+#column_2{
+	width:100%;  /*Added got mobile. DELETE for reg. site throguh media queries */
+	/*float:right;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*width:40%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*padding-right:10%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+	/*padding-top: 17%;*/  /*Deleted got mobile. Change for reg. site throguh media queries */
+}
+/*Headshot*/
+#HS img{
+	width:50%;
+	padding: 1em;
+	display:block;
+	margin: auto;
+	/*width:500px;*/ /*Deleted for mobile. Change for reg site through media query */
+	/*float:center;*/ /*DID NOT DELETE FOR REGULAR CITE*/
+}
+
+/*Headshot*/
+#HS{
+	text-align: center;
+	/*height:20%;*/
+	/*margin-bottom: 5em;*/
+	display:block;
+}
+@media only screen and (min-device-width: 600px){
+	#HS{
+		width:50%;
+		height:initial;
+		display:block;
+		margin:auto;
+
+	}
+	#HS image{
+		padding: 1em;
+	}
+}
+ul /*collapses the default size of unordered list*/
+{
+	margin: 0;
+	padding:0;
+}
